@@ -12,7 +12,7 @@ Each folder contains content, code, and notes for one specific day. Feel free to
 
 | Day | Folder | Description |
 |-----|--------|-------------|
-| 1️⃣  | [Day 1](./day1) | Introduction, setup, and basic concepts (Data Cleaning & Preprocessing) |
+| 1️⃣  | [Day 1](./Day1) | Introduction, setup, and basic concepts (Data Cleaning & Preprocessing) |
 
 ---
 
