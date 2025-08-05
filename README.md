@@ -31,3 +31,15 @@ Each folder contains content, code, and notes for one specific day. Feel free to
 1. Clone the repo:
    ```bash
    git clone https://github.com/Amanjha112113/AI-ML_Internship_ElevateLabs.git
+
+
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=amanjha112113&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=amanjha112113&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=amanjha112113&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+---
+[![](https://visitcount.itsvg.in/api?id=amanjha112113&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
