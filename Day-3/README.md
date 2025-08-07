@@ -1,74 +1,91 @@
-📈 Day 3: Housing Price Prediction - Linear Regression
-This is my Day 3 task for the AI/ML Internship program.In this task, I implemented simple and multiple linear regression models on the Housing Price Prediction dataset and created advanced visualizations using Python libraries.
+# 📈 Day 3: Housing Price Prediction - Linear Regression
 
-📌 What I Did
+This is my **Day 3 task** for the **AI/ML Internship Program**.  
+In this project, I implemented **simple** and **multiple linear regression** models on a **Housing Price Prediction** dataset. I also created both static and interactive visualizations using Python libraries to analyze model performance and feature relationships.
 
-Loaded the Housing dataset using Pandas.
-Converted categorical variables (e.g., mainroad, furnishingstatus) to numeric using LabelEncoder.
+---
 
+## 📌 What I Did
 
-Performed Linear Regression:
-Built a simple linear regression model using area as the sole feature.
-Built a multiple linear regression model using all available features.
+- **Loaded the dataset** using `Pandas`.
+- **Encoded categorical variables** (e.g., `mainroad`, `furnishingstatus`) using `LabelEncoder`.
 
+### 🔹 Performed Linear Regression
+- Built a **simple linear regression** model using `area` as the sole feature.
+- Built a **multiple linear regression** model using all available features.
 
-Evaluated models:
-Calculated Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² score.
-Exported metrics and coefficients to model_results.txt.
+### 🔹 Evaluated Models
+- Calculated:
+  - **Mean Absolute Error (MAE)**
+  - **Mean Squared Error (MSE)**
+  - **R² Score**
+- Exported evaluation metrics and coefficients to `model_results.txt`.
 
+### 🔹 Created Visualizations
+- **Correlation heatmap** showing feature relationships.
+- **Scatter plot with regression line** (Area vs. Price) for simple linear regression.
+- **Bar chart** of feature importance for multiple regression.
+- **Actual vs. Predicted** price plot to assess model performance.
+- Combined all plots into a single image: `housing_price_analysis.png`.
 
-Created visualizations:
-Plotted a correlation heatmap to show feature relationships.
-Plotted a scatter plot with regression line for simple linear regression (Area vs. Price).
-Plotted a bar chart of feature importance for multiple linear regression.
-Plotted actual vs. predicted prices for model evaluation.
-Combined all plots into a single image, saved as housing_price_analysis.png.
+### 🔹 Created Interactive Visualizations (Using Plotly)
+- Interactive **2D Scatter Plot**: Area vs. Price → `scatter_plot.html`
+- Interactive **3D Scatter Plot**: Area, Bedrooms vs. Price → `3d_scatter_plot.html`
 
+---
 
-Created interactive visualizations:
-Generated an interactive 2D scatter plot using Plotly (Area vs. Price).
-Generated an interactive 3D scatter plot using Plotly (Area, Bedrooms vs. Price).
-Exported as scatter_plot.html and 3d_scatter_plot.html.
+## 📊 Tools Used
 
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Seaborn  
+- Plotly  
 
+---
 
+## 📂 Files in this Repository
 
-📊 Tools Used
+| File Name                 | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| `main.py`                | Main Python script: data preprocessing, training, evaluation, visualizations |
+| `model_results.txt`      | Model performance metrics and regression coefficients                       |
+| `housing_price_analysis.png` | Combined static plots showing various insights                             |
+| `scatter_plot.html`      | Interactive 2D scatter plot (Area vs. Price)                                 |
+| `3d_scatter_plot.html`   | Interactive 3D scatter plot (Area, Bedrooms vs. Price)                       |
+| `Housing.csv`            | Dataset file (see link below if not present)                                 |
+| `README.md`              | This file                                                                     |
 
-Python
-Pandas
-NumPy
-Scikit-learn
-Matplotlib
-Seaborn
-Plotly
+---
 
+## 📥 Dataset Source
 
-📂 Files in this Folder
+You can get the Housing Price Prediction dataset from:  
+🔗 [Kaggle: Housing Price Prediction Dataset](https://www.kaggle.com/datasets/harishkumardatalab/housing-price-prediction)
 
-main.py → Fully functional Python script with data preprocessing, model training, evaluation, and visualization generation.
-model_results.txt → Model performance metrics (MAE, MSE, R²) and coefficients.
-housing_price_analysis.png → Combined Matplotlib/Seaborn visualizations.
-scatter_plot.html → Interactive Plotly 2D scatter plot.
-3d_scatter_plot.html → Interactive Plotly 3D scatter plot.
-Housing.csv → Dataset file (you can download it from the link below).
-README.md → This file.
+---
 
+## ✅ What I Learned
 
-📥 Dataset Source
-You can get the Housing Price Prediction dataset from:
+- How to implement **simple** and **multiple linear regression** models.
+- How to **preprocess categorical variables** for machine learning.
+- How to evaluate regression models using **MAE**, **MSE**, and **R²** score.
+- How to create **static visualizations** using Matplotlib and Seaborn.
+- How to create **interactive visualizations** using Plotly.
+- How to **interpret regression coefficients** and feature importance.
 
-Kaggle: Housing Price Prediction Dataset
+---
 
+## 🎯 Summary
 
-✅ What I Learned
+This project builds a strong foundation in:
+- Understanding and applying **Linear Regression**
+- **Data preprocessing**
+- **Model evaluation**
+- **Data visualization** — both static and interactive
 
-How to implement simple and multiple linear regression models
-How to preprocess categorical data for machine learning
-How to evaluate regression models using MAE, MSE, and R²
-How to create static visualizations with Matplotlib and Seaborn
-How to create interactive visualizations with Plotly
-How to interpret regression coefficients and feature importance
+It serves as an essential stepping stone for more advanced machine learning tasks.
 
-
-🎯 This project provides a solid foundation for understanding linear regression and data visualization, essential for advanced machine learning tasks.
+---
