@@ -12,8 +12,9 @@ Each folder contains content, code, and notes for one specific day. Feel free to
 
 | Day | Folder | Description |
 |-----|--------|-------------|
-| 1️⃣  | [Day 1](./Day1) | Introduction, setup, and basic concepts (Data Cleaning & Preprocessing) |
+| 1️⃣  | [Day 1](./Day-1) | Introduction, setup, and basic concepts (Data Cleaning & Preprocessing) |
 | 2️⃣  | [Day 2](./Day-2) | Exploratory Data Analysis (EDA) |
+| 3️⃣  | [Day 2](./Day-3) | Linear Regression |
 
 ---
 
