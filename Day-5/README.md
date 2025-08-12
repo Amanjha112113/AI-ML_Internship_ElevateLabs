@@ -86,5 +86,5 @@ We use the **Heart Disease Dataset** from Kaggle:
 ## 📝 How to Run
 1. Clone this repository:
    ```bash
-   git clone 
+   git clone https://github.com/Amanjha112113/AI-ML_Internship_ElevateLabs/tree/main/Day-5
    cd task5-decision-trees
