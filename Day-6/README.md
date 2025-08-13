@@ -5,25 +5,6 @@ It evaluates model performance for different values of **K**, visualizes **confu
 
 ---
 
-## 📂 Project Structure
-
-├── knn_iris.py # Main Python script
-├── confusion_matrix_k1.png # Confusion matrix for K=1
-├── confusion_matrix_k3.png # Confusion matrix for K=3
-├── confusion_matrix_k5.png # Confusion matrix for K=5
-├── confusion_matrix_k7.png # Confusion matrix for K=7
-├── confusion_matrix_k9.png # Confusion matrix for K=9
-├── decision_boundary_k1.png # Decision boundary for K=1
-├── decision_boundary_k3.png # Decision boundary for K=3
-├── decision_boundary_k9.png # Decision boundary for K=9
-├── accuracy_vs_k.png # Accuracy vs K plot
-└── README.md # Project documentation
-
----
-
-
----
-
 ## 📌 Features
 
 - **Data Preprocessing**
@@ -49,10 +30,10 @@ It evaluates model performance for different values of **K**, visualizes **confu
 ![Accuracy vs K](accuracy_vs_k.png)
 
 ### Confusion Matrix (K=3)
-![Confusion Matrix K=3](confusion_matrix_k3.png)
+![Confusion Matrix K=3](confusion_matrix_k1.png)
 
 ### Decision Boundary (K=3)
-![Decision Boundary K=3](decision_boundary_k3.png)
+![Decision Boundary K=3](confusion_matrix_k1.png)
 
 ---
 
